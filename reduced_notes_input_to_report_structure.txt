@@ -1,0 +1,14 @@
+- should have done dynamic URI client-server, to decouple. - Ref, Surfing thesis
+
+- contineous integration - and deployment: quick response to changes
+-- first when complex enough, but architecture to decouple deploys
+- API base for success. Platform! All about data
+
+-- How to design simple API (REST).
+--- try it yourself real world before - make couple of own clients
+--- library once there, untouchable.
+--- Make it simple for newbies: open source your clients
+
+--- decrease in performance resulted in decreased use. Google (other academics?)
+--- amazon crashed. Trouble split into two servers...
+
