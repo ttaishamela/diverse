@@ -1,0 +1,202 @@
+\documentclass[a4paper,10pt]{article}
+
+\begin{document}
+
+
+\begin{abstract}
+This is a temptative table of contents for the thesis. It will most probably change, but still gives an idea about how the thesis outline could look like.
+\end{abstract}
+  
+\section{Abstract}
+\section{Introduction}
+This section will contain some of the current synopsis contents, major results and the thesis outline.
+
+\section{Part I: Background}
+This part introduce the research about successful innovations, entrepreneurs and startups, and ends with process and architectural challenges.
+\\
+Alternatively end with a summary/chosen strategy already in this section, instead of a whole new section (see next section).
+
+\subsection{The Disruptive Innovation}
+A disruptive innovation is an innovation that succeeds in replacing/displacing market leaders within a relatively short period of time.
+This section describes fundamentals that makes disruptive innovations possible, which helps shaping a strategy for new players in a market (i.e. startups).
+
+\begin{itemize}
+  \item In a given market, the customer choice is drived by the most important features/aspects of a product as perceived by the market. These are called drivers.
+  \item Head to head competition on existing drivers is too hard for new players, established companies are optimized for this competition
+  \item But current competition on drivers improves the products in a rate that surpasses the capacity of customers to utilise (surpasses their actual needs).
+  \item Technology advancement will eventually make current drivers satisfied with "main stream" technology
+  \item Strategy: 1) allow lower quality on current drivers, but focus on new drivers, for example make product simpler/cheaper/more convenient
+  \item Strategy: 2) serve nonconsumers, which needs/capabilities/budget don't fit well with established products
+  \item *Strategy*: 3) focus on the \emph{jobs-to-be-done}, the core reasons why customers "hire" the products in the first place
+  \subitem "People don't want a quarter-inch drill — they want a quarter-inch hole."
+  \item Once advancement in current drivers don't matter for the bulk of customers, new drivers replace them, flipping the market upside down, giving advantage to the new players
+  \item Competiton is not between single companies, but between an existing "value network" (constellation of companies complementing each other in serving the same customers) 
+	optimized for current market conditions, and a "new value network" that has to be build from the ground up for competing in a fundamentally new market
+  \item Strategy: 4) Thus, focus on partnerships, have to build/be part of a whole new value network to succeed 
+  \item Startups are best suited for disruptive innovations
+  \item It is unknowable which innovation might be disruptive
+  \item Incumbents are too entrenched in the current battle for the market; they can't compete in both the current and disruptive market drivers, even if they wanted. 
+        Have to buy-up new startups instead, or start a separate business unit, which operates under the same condition as startups 
+\end{itemize}
+
+\subsection{The Effectual Entrepreneur}
+Startups are best at disruptive innovations. This section introduces effectuation, which describes the logic that drives desicions of successful entrepreneurs.
+\begin{itemize}
+  \item The opposite of causal, effectual
+  \item No fixed goal nor a long term plan to reach the predefined goal, but a flexible aspiration/vision and actual small, successive effects within immediate reach
+  \item Bias for action: what can be done now with the means at hand, instead of aquiring means (i.e. venture capital) to achieve a potential future return
+  \item Highly iterative and interactive both with customers and possible partners
+  \item Early validation of the product-market-fit
+  \item Good at creating new value networks, building partnerships to co-create a new market. 
+  \item Paper: Systematic way to find partners and customers to explore.
+\end{itemize}
+
+\subsection{The Consistent Startup}
+This section describes commonalities between successful "internet" startups
+\begin{itemize}
+  \item A startup is "a developmental organism that evolves along 5 interdependent dimensions: Customer, Product, Team, Business Model and Financials." \cite{genomePrematureScalingReport}
+  \item All dimensions need to grow in harmony in relation to each other: if one is too slow or too fast, it is a degenerate growth and will not scale (well).
+  \item If Customer dimension is lagging, it is premature scaling. 
+  \subitem i.e. polishing the product and making it scalable while having no or too few customer interaction (and too few customers): the time/money is probably wasted on the wrong product
+  \item If Customer dimension growth too high, while the product/business model/financials is not ready, it is dysfunctional scaling. 
+	Although less frequent than premature scaling, it can nonetheless be fatal (i.e. Friendster).
+  \subitem i.e. too many new customers while core user jobs-to-be-done not found/matched well, or the product not scalable, might result in killing the reputation/interest, and users will leave
+  \subitem i.e. if finantials/business model not in place, might not be able to fund growth (pay for infrastructure, hire employees etc) 
+  \item If the Finantials dimension grows prematurely, it puts pressure to grow the team or do advertizement before finding a product-market-fit, 
+	which might result in either premature or dysfunctional scaling
+  \item The art of entrepreneurship: consistency/harmony between all dimension through lifetime
+  \item Startups go through stages
+  \item Stages take more time than most founders think, which might push them to rush/transgress the healthy stages (pressure to scale prematurely)
+  \item Startup types (incl. Social Transformer)
+  \item First: focus on discovering and meeting the jobs-to-be-done, the product-market-fit. Then find a business model.
+  \item Agility in early stage: minimal viable product, value proposition, pivot. Use own developers (not outsourcing).
+  \item The product-market-fit match might only be known in retrospect (after the fact): thus be prepared for sudden surge in load at anytime
+\end{itemize}
+
+\subsection{The Agile Process: Pretotyping}
+\begin{itemize}
+\item A prototype answers the question "can we build it?". A \emph{pretotype}, on the other hand, answers "if we build it, will they use it?"
+\item Goal: shorten the speculative phase, and back it up with user data
+\item simpler than prototype: could be a piece of wood simulating a PDA, a deadlink to test for interest via click statistics etc
+\item \emph{The Law of Failure}: "Most new [product]s will fail – even if they are flawlessly executed." So try to validate or fail fast and cheap
+\item Can be more than one product ideas: start several and choose one with best market response
+\item Pretotyping techniques: The Mechanical Turk, The Pinocchio, The Minimum Viable Product, The Provincial, The Fake Door, 
+\item The pretotype depends on the given use case: has to be minimal, but valuable enough: minimal viable product
+\item create, launch, collect stats, interpret market response, adjust, collect stats etc.
+\item The "market response" plays the role of a product owner/user. Measure and monitor "Initial Level of Interest" and "Ongoing Level of Interest"
+\item A/B test
+\item Incremental Change, Continuous Deployment
+\end{itemize}
+
+\subsection{Early Stage, Agility and The Architectural Challenges}
+% remember: good not disturb user by reinstall. Good not to hinder new users. Ok to use eReader without backend at all. So, let users flow in, but control backend access if bottleneck.
+\begin{itemize}
+\item Agility Vs. Architecture
+\item Architecture consumes resources (time and effort) - might contradict the minimalistic approach. But non or 
+      bad early architectural desicions become more costly to reverse, which might kill the startup
+\item Challenge: how to find a balance between immediate minimum viable product and an architecture that is prepared to scale if a sudden surge in load happens (which is the goal anyway)?
+\item Possibility of scalability and performance, though without too much upfront work.
+\item Be able to scale while constrained financially, as long as possible: Need to proove product viability and avoid pressure before getting financed: survive and thrive untill then.
+\item Thick clients: loose full control of architecture, even more so when the app markets are controlled by a 3d party
+\subitem In a way, client/server protocol similar to public APIs, need to be managed
+\subitem Need backward compatibility from day 1: minimize annoyance of early users by buggy behaviour/forced updates.
+\subitem Need to control/reverse early design decisions, that might not be adequate for example to handle load (fx choosing minimalistic pull approach but generates too many unnecessary requests)
+\subitem How to do A/B testing when updates take longer time and are not under our controlled?
+%\item User loyality: needs to be fine, no hasles that kill popularity.
+\subitem Opportunity: take advantage of clients hardware? %: no need for expensive loadbalancer; more stable etc.
+
+\item How to switch focus forth and back between functional and non-functional aspects (features Vs. modifiability, scalability etc.) 
+      to grow the architecture and features side by side 
+\end{itemize}
+
+\section{Part II: Approach}
+This section builds upon the previous section to propose a blueprint on how to proceed when starting a new product in a market on the verge of being disrupted.
+First, how to find a good starting point for functional requirements and then subsequently refine them.
+Second, how to economically balance agility and minimal effort with early non-functional requirements.
+Third, when to continuously keep the balance and switch focus between the two aspects, adding/adjusting features and growing an architecture.
+Fourth, a concrete thick client architecture is proposed that deals with the challenges mentioned in the previous section.
+
+
+Move: measure actual load and growth trajectories, simulate a projected load with growth and test if current architecture can handle it or need to prepare more scaling.
+
+
+The functional requirement: possible goals and partnerships
+The non-functional requirements: (non-intrusive) agility, preparedness to scale, stretch low cost as long as possible
+
+Requirement for architecture (then the concrete architecture as proposal?)
+Embrase the API: partnerships and integration with 3d party 
+
+Know about options early, to quickly choose based on load. Almost mental conditioning and preparation
+
+\subsection{A) Overall Strategy}
+Use disruptive theory and market insights, as guiding line for overall Goal, and possible alternative value networks as inspiration for systematic search for partnerships.
+Using effectuation's means at hand and network as starting point and figure out what possible goals can be achieved and what would make sense for partnerships building.
+Make a ``fælles'' nævner for goals and partnerships and implement to answer core questions and 
+For arch., focus on product-market-fit but keep stats, and prepared anytime more focus to scalability.
+
+Guidelines for architecture (QAS?)
+Why: to be flexible if desicions bad for performance; to be able (refactor) to scale quickly...
+
+\subsection{B) Architecture: client based loadbalancer}
+Describes the most interesting architecture tactics and styles that could contribute to shaping the final system architecture.
+The list is just for inspiration and will be modified as necessary.
+
+\subsection{REST}
+\subsection{Caching}
+\subsection{Replication}
+\subsection{Data sharding}
+\subsection{Isolated services}
+\subsection{Continuous Deployment}
+\subsection{Redundancy}
+\subsection{Cloud Vs. Hosting Vs. Hybrid}
+\subsection{Use cases}
+
+
+\section{Part III: Case}
+\subsection{Strategy}
+Disruption, value network, vision, flexiblity
+First phase (zero): basic eReader
+Afterwards: iterate on concept, interaction etc.
+
+Describes the basis eReader application without backend implementation.
+\subsection{Requirements}
+\subsection{Implementation}
+\subsection{User tests}
+
+\section{Part III: First pretotype: User interaction}
+Describes the initial pretotype (both front end eReader app and backend).
+It ends describing the iterations the system goes through.
+\subsection{User interaction}
+\subsection{Requirements}
+\subsubsection{Client based load balancing}
+\subsubsection{Operation modes}
+\subsubsection{Dynamic instructions}
+\subsubsection{Collecting data}
+\subsection{API Design principles}
+\subsection{Implementation}
+\subsubsection{API}
+\subsubsection{eReader App}
+\subsubsection{Backend}
+\subsection{Data analysis and key findings}
+\subsection{User feedback}
+\subsection{Pretotype iterations}
+\subsubsection{(Optional) Continuous deployment}
+
+
+\section{Part V: Scaling}
+This section describes the actual requirements collected, the chosen architecture and the evaluation
+\subsection{Pretotype input for architecture}
+\subsection{The architecturally significant requirements}
+\subsection{Architecture}
+\subsection{Architectural prototype}
+\subsection{Evaluation}
+
+\section{Part VI: What next?}
+This section describes the next move that should be taken. It could be the architecture evaluation sheds light on some aspects of the architecture that should be improved, or it could be some other aspect
+ (dimension) of the startup as a whole that should be changed (according to the genome project, startups are organic in nature, and all dimensions need to grow in balance.)
+
+\section{Part VII: Conclusion}
+What are the obtained results and learned experiences in this project.
+
+
+\end{document}
