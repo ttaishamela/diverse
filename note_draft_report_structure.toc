@@ -1,27 +1,26 @@
-\contentsline {section}{\numberline {0.1}Abstract}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}Introduction}{4}{section.0.2}
-\contentsline {subsection}{\numberline {0.2.1}Motivation}{4}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}Outline of Thesis}{4}{subsection.0.2.2}
-\contentsline {section}{\numberline {0.3}Background}{6}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}Disruptive Innovation: What is happening?}{6}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}Expert Entrepreneurs Effectuation}{10}{subsection.0.3.2}
-\contentsline {subsubsection}{Link to disruptive innovation}{11}{section*.2}
-\contentsline {subsection}{\numberline {0.3.3}Startup Challenge: Consistency}{12}{subsection.0.3.3}
-\contentsline {subsubsection}{Startup Lifecycle}{12}{section*.3}
-\contentsline {subsection}{\numberline {0.3.4}Pretotyping}{14}{subsection.0.3.4}
-\contentsline {subsubsection}{Challenges of pretotyping on thick clients}{15}{section*.4}
-\contentsline {subsubsection}{public API trend, and platform a good way to go}{15}{section*.5}
-\contentsline {subsection}{\numberline {0.3.5}Architecture}{15}{subsection.0.3.5}
-\contentsline {section}{\numberline {0.4}Approach}{16}{section.0.4}
-\contentsline {section}{\numberline {0.5}Case}{16}{section.0.5}
-\contentsline {subsection}{\numberline {0.5.1}Use cases}{16}{subsection.0.5.1}
-\contentsline {subsection}{\numberline {0.5.2}Applying disruption approach}{17}{subsection.0.5.2}
-\contentsline {subsubsection}{Applying effectuation (remove?)}{19}{section*.6}
-\contentsline {subsection}{\numberline {0.5.3}Why/strategy}{19}{subsection.0.5.3}
-\contentsline {subsection}{\numberline {0.5.4}Possible paths and what should be done in each case}{19}{subsection.0.5.4}
-\contentsline {subsection}{\numberline {0.5.5}What happened}{19}{subsection.0.5.5}
-\contentsline {subsubsection}{Implementation}{20}{section*.7}
-\contentsline {subsubsection}{Arabic}{20}{section*.8}
-\contentsline {subsubsection}{Log analysis}{20}{section*.9}
-\contentsline {subsection}{\numberline {0.5.6}Requirement and architecture}{20}{subsection.0.5.6}
-\contentsline {section}{\numberline {0.6}Conclusion}{20}{section.0.6}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Outline of Thesis}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Background}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}The Disruptive Innovation}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}The Effectual Entrepreneur}{9}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Link to disruptive innovation}{10}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}The Consistent Startup}{11}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Startup Lifecycle}{11}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.4}Pretotyping}{13}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Challenges of pretotyping on thick clients}{14}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}public API trend, and platform a good way to go}{14}{subsubsection.2.4.2}
+\contentsline {subsection}{\numberline {2.5}Architecture}{15}{subsection.2.5}
+\contentsline {section}{\numberline {3}Approach}{15}{section.3}
+\contentsline {section}{\numberline {4}Case}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Use cases}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Applying disruption approach}{16}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Applying effectuation (remove?)}{18}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}Why/strategy}{18}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Possible paths and what should be done in each case}{18}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}What happened}{18}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Implementation}{19}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Arabic}{19}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Log analysis}{19}{subsubsection.4.5.3}
+\contentsline {subsection}{\numberline {4.6}Requirement and architecture}{19}{subsection.4.6}
+\contentsline {section}{\numberline {5}Conclusion}{20}{section.5}

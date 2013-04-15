@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.11.15)  6 APR 2013 18:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.11.15)  12 APR 2013 19:05
 entering extended mode
  %&-line parsing enabled.
 **note_draft_report_structure.tex
@@ -6,20 +6,19 @@ entering extended mode
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/book.cls
-Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/bk10.clo
-File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -261,7 +260,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count88
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -288,8 +287,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen105
-\Hy@linkcounter=\count89
-\Hy@pagecounter=\count90
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -356,7 +355,7 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count91
+\Fld@menulength=\count90
 \Field@Width=\dimen106
 \Fld@charsize=\dimen107
 \Field@toks=\toks17
@@ -371,14 +370,14 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count92
-\c@Item=\count93
-\c@Hfootnote=\count94
+\Hy@abspage=\count91
+\c@Item=\count92
+\c@Hfootnote=\count93
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count95
+\Fld@listcount=\count94
 )
 (./note_draft_report_structure.aux
 
@@ -403,15 +402,15 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
+\scratchcounter=\count95
 \scratchdimen=\dimen108
 \scratchbox=\box26
-\nofMPsegments=\count97
-\nofMParguments=\count98
+\nofMPsegments=\count96
+\nofMParguments=\count97
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count99
+\MPscratchCnt=\count98
 \MPscratchDim=\dimen109
-\MPnumerator=\count100
+\MPnumerator=\count99
 \everyMPtoPDFconversion=\toks19
 )
 Package hyperref Info: Link coloring OFF on input line 7.
@@ -421,7 +420,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count101
+\c@section@level=\count100
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -432,509 +431,500 @@ LaTeX Info: Redefining \pageref on input line 7.
 
 \AtBeginShipoutBox=\box27
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Overfull \hbox (4.09988pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/9 de-vices (smart-phones and tablets). The-o-ret-i-cal foun-da-tio
+ns for high growth
+ []
 
-] [2
+[1
 
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./note_draft_report_structure.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1.
+(Font)              <5> on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `note_draft_report_structure.toc'.
 
- [3]
+ [2]
 
-LaTeX Warning: Citation `halfPreditEbookDominant2014' on page 4 undefined on in
-put line 30.
+LaTeX Warning: Citation `halfPreditEbookDominant2014' on page 3 undefined on in
+put line 31.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 98--105
+(Font)              <6> on input line 38.
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
 
-<images/simpleDisruptiveInnovationModel.png, id=202, 1016.79875pt x 523.9575pt>
+<images/simpleDisruptiveInnovationModel.png, id=194, 1016.79875pt x 523.9575pt>
 File: images/simpleDisruptiveInnovationModel.png Graphic file (type png)
-<use images/simpleDisruptiveInnovationModel.png> [6 <./images/simpleDisruptiveI
+<use images/simpleDisruptiveInnovationModel.png> [5 <./images/simpleDisruptiveI
 nnovationModel.png>]
 
-LaTeX Warning: Citation `innovatorsDilemma' on page 7 undefined on input line 1
-41.
+LaTeX Warning: Citation `innovatorsDilemma' on page 6 undefined on input line 1
+44.
 
 
-LaTeX Warning: Citation `innovatorsDilemma' on page 7 undefined on input line 1
-43.
+LaTeX Warning: Citation `innovatorsDilemma' on page 6 undefined on input line 1
+46.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
-[7]
-<images/twoDiruptiveInnovationModels.png, id=229, 729.72626pt x 456.70625pt>
+[6]
+<images/twoDiruptiveInnovationModels.png, id=220, 729.72626pt x 456.70625pt>
 File: images/twoDiruptiveInnovationModels.png Graphic file (type png)
 
 <use images/twoDiruptiveInnovationModels.png>
-Underfull \hbox (badness 10000) in paragraph at lines 188--193
+Underfull \hbox (badness 10000) in paragraph at lines 200--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--200
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+[7 <./images/twoDiruptiveInnovationModels.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--223
 
  []
 
-[8 <./images/twoDiruptiveInnovationModels.png>]
+[8]
 
-LaTeX Warning: Citation `phdChristianStrom' on page 9 undefined on input line 2
-43.
-
-[9]
-
-LaTeX Warning: Citation `effectuationExperiment' on page 10 undefined on input 
-line 252.
+LaTeX Warning: Citation `effectuationExperiment' on page 9 undefined on input l
+ine 246.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-<images/effectuationCycle.png, id=258, 1164.35pt x 513.92pt>
+<images/effectuationCycle.png, id=250, 1164.35pt x 513.92pt>
 File: images/effectuationCycle.png Graphic file (type png)
 
 <use images/effectuationCycle.png>
-Overfull \hbox (34.5021pt too wide) in paragraph at lines 265--267
+Overfull \hbox (34.5021pt too wide) in paragraph at lines 259--261
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--282
+Underfull \hbox (badness 10000) in paragraph at lines 266--276
 
  []
 
-[10 <./images/effectuationCycle.png>] [11]
-Underfull \hbox (badness 8132) in paragraph at lines 363--365
+[9 <./images/effectuationCycle.png>] [10]
+Underfull \hbox (badness 8132) in paragraph at lines 365--367
 []\OT1/cmr/m/n/10 Validating the prob-lem and
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 369--371
+Underfull \hbox (badness 5519) in paragraph at lines 371--373
 []\OT1/cmr/m/n/10 Early val-i-da-tion that peo-ple
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 369--371
+Underfull \hbox (badness 1533) in paragraph at lines 371--373
 \OT1/cmr/m/n/10 are in-ter-ested in the prod-uct
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 374--377
+Underfull \hbox (badness 1708) in paragraph at lines 376--379
 \OT1/cmr/m/n/10 prov-ing the ef-fi-ciency of cus-
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 374--377
+Underfull \hbox (badness 2762) in paragraph at lines 376--379
 \OT1/cmr/m/n/10 tups should be able to ef-fi-
  []
 
 
-Overfull \hbox (112.19548pt too wide) in paragraph at lines 360--388
+Overfull \hbox (112.19548pt too wide) in paragraph at lines 362--390
 [][] 
  []
 
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 439--444
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 438--443
 
  []
 
-[14] [15] [16] [17] [18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 770--773
+[13] [14] [15] [16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 769--772
 []$\OT1/cmtt/m/n/10 http : / / money . msn . com / investment-[]advice / latest
 -[]4 . aspx ? post =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--773
+Underfull \hbox (badness 10000) in paragraph at lines 769--772
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 776--780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--781
+Underfull \hbox (badness 10000) in paragraph at lines 789--793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--794
+Underfull \hbox (badness 10000) in paragraph at lines 795--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--800
+Underfull \hbox (badness 10000) in paragraph at lines 802--806
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--807
+Underfull \hbox (badness 10000) in paragraph at lines 815--818
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 816--819
+Underfull \hbox (badness 10000) in paragraph at lines 820--823
 
  []
 
-[21
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 821--824
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 839--842
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 838--841
 
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 851--854
+Underfull \hbox (badness 1028) in paragraph at lines 850--853
 []\OT1/cmr/m/n/10 http://www.bbc.co.uk/news/business-20663550 (Ac-cessed 17 De-
 cem-ber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--859
+Underfull \hbox (badness 10000) in paragraph at lines 855--858
 
  []
 
 
-Overfull \hbox (99.30188pt too wide) in paragraph at lines 862--865
+Overfull \hbox (99.30188pt too wide) in paragraph at lines 861--864
 []$\OT1/cmtt/m/n/10 http : / / bgr . com / 2011 / 04 / 12 / ipad-[]tablets-[]cl
 early-[]disrupting-[]pc-[]market-[]survey-[]finds/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--865
+Underfull \hbox (badness 10000) in paragraph at lines 861--864
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--870
+Underfull \hbox (badness 10000) in paragraph at lines 866--869
 
  []
 
 
-Overfull \hbox (82.55202pt too wide) in paragraph at lines 872--876
+Overfull \hbox (82.55202pt too wide) in paragraph at lines 871--875
 []$\OT1/cmtt/m/n/10 http : / / www . oregonbusiness . com / linda / 7830-[]onli
 ne-[]higher-[]education-[]startups-[]boom$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--876
+Underfull \hbox (badness 10000) in paragraph at lines 871--875
 
  []
 
 
-Overfull \hbox (66.30215pt too wide) in paragraph at lines 878--882
+Overfull \hbox (66.30215pt too wide) in paragraph at lines 877--881
 []$\OT1/cmtt/m/n/10 http : / / techcrunch . com / 2012 / 08 / 31 / blended-[]cl
 assroom-[]boom-[]education-[]startups/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--882
+Underfull \hbox (badness 10000) in paragraph at lines 877--881
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 884--888
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--887
 []$\OT1/cmtt/m/n/10 http : / / www . ted . com / talks / daphne _ koller _ what
  _ we _ re _ learning _
  []
 
 
-Overfull \hbox (59.0522pt too wide) in paragraph at lines 890--893
+Overfull \hbox (59.0522pt too wide) in paragraph at lines 889--892
 []$\OT1/cmtt/m/n/10 http : / / online . wsj . com / article / SB100014240527023
 03916904577375502392129654 .
  []
 
-
-Overfull \hbox (269.80042pt too wide) in paragraph at lines 895--898
+[21]
+Overfull \hbox (269.80042pt too wide) in paragraph at lines 894--897
 []$\OT1/cmtt/m/n/10 http : / / techcrunch . com / 2011 / 10 / 25 / subtext-[]ra
 ises-[]3-[]million-[]from-[]google-[]ventures-[]more-[]to-[]make-[]ebook-[]read
 ing-[]social/$[] 
  []
 
 
-Overfull \hbox (52.05229pt too wide) in paragraph at lines 905--908
+Overfull \hbox (52.05229pt too wide) in paragraph at lines 904--907
 []$\OT1/cmtt/m/n/10 http : / / www . edukwest . com / inkling-[]raises-[]17-[]m
 illion-[]swings-[]for-[]the-[]fences/$[] 
  []
 
 
-Overfull \hbox (105.05183pt too wide) in paragraph at lines 910--913
+Overfull \hbox (105.05183pt too wide) in paragraph at lines 909--912
 []$\OT1/cmtt/m/n/10 http : / / www . edukwest . com / chegg-[]etextbook-[]reade
 r-[]launches-[]today-[]works-[]on-[]any-[]device/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--918
+Underfull \hbox (badness 10000) in paragraph at lines 914--917
 []$\OT1/cmtt/m/n/10 http : / / www . bloomberg . com / news / 2011-[]04-[]08 /
  []
 
 
-Overfull \hbox (59.80225pt too wide) in paragraph at lines 915--918
+Overfull \hbox (59.80225pt too wide) in paragraph at lines 914--917
 \OT1/cmtt/m/n/10 intel-[]is-[]said-[]to-[]lead-[]30-[]million-[]funding-[]of-[]
 education-[]tablet-[]startup-[]kno .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--924
+Underfull \hbox (badness 10000) in paragraph at lines 919--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--929
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 []$\OT1/cmtt/m/n/10 http : / / www . publishersweekly . com / pw / by-[]topic /
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--929
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 \OT1/cmtt/m/n/10 industry-[]news / financial-[]reporting / article /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--929
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 \OT1/cmtt/m/n/10 54372-[]trade-[]sales-[]rose-[]13-[]in-[]january-[]june-[]peri
 od-[]aap-[]says .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--929
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 934--937
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 939--942
+Underfull \hbox (badness 10000) in paragraph at lines 933--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--948
+Underfull \hbox (badness 10000) in paragraph at lines 938--941
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 943--947
 []$\OT1/cmtt/m/n/10 http : / / www . effectuation . org / sites / default / fil
 es / What % 20makes %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--948
+Underfull \hbox (badness 10000) in paragraph at lines 943--947
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 950--954
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 949--953
 []$\OT1/cmtt/m/n/10 http : / / www . effectuation . org / sites / default / fil
 es / documents /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--954
+Underfull \hbox (badness 10000) in paragraph at lines 949--953
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--959
+Underfull \hbox (badness 10000) in paragraph at lines 955--958
 []\OT1/cmr/m/it/10 Effectuation 101 []$\OT1/cmtt/m/n/10 http : / / www . effect
 uation . org / learn /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--959
+Underfull \hbox (badness 10000) in paragraph at lines 955--958
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--965
+Underfull \hbox (badness 10000) in paragraph at lines 960--964
 []$\OT1/cmtt/m/n/10 http : / / www . effectuation . org / sites / default / fil
 es / documents /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--965
+Underfull \hbox (badness 10000) in paragraph at lines 960--964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--971
+Underfull \hbox (badness 10000) in paragraph at lines 966--970
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--978
+Underfull \hbox (badness 10000) in paragraph at lines 974--977
 []$\OT1/cmtt/m/n/10 http : / / www . youtube . com / watch ? feature = player _
  embedded&v =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--978
+Underfull \hbox (badness 10000) in paragraph at lines 974--977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--985
+Underfull \hbox (badness 10000) in paragraph at lines 981--984
 
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 989--994
+Underfull \hbox (badness 1014) in paragraph at lines 988--993
 \OT1/cmr/m/it/10 Chapter 13: The Na-ture of the En-trepreneurial Pro-cess: Cau-
 sa-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--994
+Underfull \hbox (badness 10000) in paragraph at lines 988--993
 []$\OT1/cmtt/m/n/10 http : / / www . emeraldinsight . com / books . htm ? issn 
 = 1876-[]0228&volume =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--994
+Underfull \hbox (badness 10000) in paragraph at lines 988--993
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 997--1000
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 996--999
 []$\OT1/cmtt/m/n/10 http : / / www . aomevents . com / media / files / ISS % 20
 2012 / ISS %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 997--1000
+Underfull \hbox (badness 10000) in paragraph at lines 996--999
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1006
 []\OT1/cmr/m/it/10 MANAGING DIS-RUP-TIVE IN-NO-VA-TION: EN-TREPRENEURIAL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1006
 \OT1/cmr/m/it/10 STRATE-GIES AND TOUR-NA-MENTS FOR COR-PO-RATE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1006
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1019
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1018
 
  []
 
 
-Overfull \hbox (98.80188pt too wide) in paragraph at lines 1022--1027
+Overfull \hbox (98.80188pt too wide) in paragraph at lines 1021--1026
 []$\OT1/cmtt/m/n/10 http : / / blog . startupcompass . co / pages / startup-[]g
 enome-[]report-[]extra-[]on-[]premature-[]scal$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1026
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1033
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1040
 []$\OT1/cmtt/m/n/10 http : / / www . huffingtonpost . com / mark-[]coker /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1040
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1045
 []$\OT1/cmtt/m/n/10 http : / / www . huffingtonpost . com / mark-[]coker /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1046
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1053
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1045
 
  []
 
 
-Overfull \hbox (46.80234pt too wide) in paragraph at lines 1055--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1052
+
+ []
+
+[24]
+Overfull \hbox (46.80234pt too wide) in paragraph at lines 1054--1057
 []$\OT1/cmtt/m/n/10 http : / / www . getelastic . com / the-[]rise-[]and-[]rise
 -[]of-[]e-[]textbooks-[]infographic/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1055--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1057
 
  []
 
 
-Overfull \hbox (265.05046pt too wide) in paragraph at lines 1060--1063
+Overfull \hbox (265.05046pt too wide) in paragraph at lines 1059--1062
 []$\OT1/cmtt/m/n/10 http : / / techcrunch . com / 2011 / 05 / 19 / that-[]was-[
 ]fast-[]amazons-[]kindle-[]ebook-[]sales-[]surpass-[]print-[]it-[]only-[]took-[
 ]four-[]years/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1063
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1070
 []$\OT1/cmtt/m/n/10 http : / / tech . fortune . cnn . com / 2011 / 03 / 25 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1077
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1076
 []$\OT1/cmtt/m/n/10 http : / / www . apple . com / pr / library / 2010 / 08 /
  []
 
@@ -942,14 +932,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.managing
 DisruptiveInnovation}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1078 \bibitem{managingDisruptiveInnovation}
+l.1077 \bibitem{managingDisruptiveInnovation}
                                              
-Underfull \hbox (badness 4181) in paragraph at lines 1079--1087
+Underfull \hbox (badness 4181) in paragraph at lines 1078--1086
 \OT1/cmr/m/n/10 ENTREPRENEURIAL STRATE-GIES AND TOUR-NA-MENTS FOR
  []
 
 
-Overfull \hbox (553.54799pt too wide) in paragraph at lines 1089--1091
+Overfull \hbox (553.54799pt too wide) in paragraph at lines 1088--1090
 []$\OT1/cmtt/m/n/10 http : / / techcrunch . com / 2012 / 11 / 26 / twitter-[]ce
 o-[]dick-[]costolo-[]twitter-[]sees-[]a-[]billion-[]tweets-[]every-[]two-[]and-
 []a-[]half-[]days-[]users-[]can-[]download-[]their-[]entire-[]archive-[]by-[]ye
@@ -957,22 +947,22 @@ ar-[]end/$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
 
  []
 
-[26]
-Overfull \hbox (66.80215pt too wide) in paragraph at lines 1098--1101
+
+Overfull \hbox (66.80215pt too wide) in paragraph at lines 1097--1100
 []$\OT1/cmtt/m/n/10 http : / / www . forbes . com / 2008 / 01 / 29 / disruptome
 ter-[]amazon-[]sony-[]lead-[]clayton-[]in _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1104--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1107
 
  []
 
-[27] (./note_draft_report_structure.aux)
+[25] [26] (./note_draft_report_structure.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -981,25 +971,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4631 strings out of 495061
- 67905 string characters out of 1182620
- 142042 words of memory out of 3000000
- 7590 multiletter control sequences out of 15000+50000
- 8806 words of font info for 31 fonts, out of 3000000 for 9000
+ 4612 strings out of 495061
+ 67752 string characters out of 1182620
+ 141505 words of memory out of 3000000
+ 7572 multiletter control sequences out of 15000+50000
+ 8807 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,9n,36p,296b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,36p,296b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on note_draft_report_structure.pdf (27 pages, 501109 bytes).
+xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmti8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmtt10.pfb>
+Output written on note_draft_report_structure.pdf (26 pages, 518530 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

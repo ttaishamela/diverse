@@ -1,27 +1,26 @@
-\BOOKMARK [1][-]{section.0.1}{Abstract}{}
-\BOOKMARK [1][-]{section.0.2}{Introduction}{}
-\BOOKMARK [2][-]{subsection.0.2.1}{Motivation}{section.0.2}
-\BOOKMARK [2][-]{subsection.0.2.2}{Outline of Thesis}{section.0.2}
-\BOOKMARK [1][-]{section.0.3}{Background}{}
-\BOOKMARK [2][-]{subsection.0.3.1}{Disruptive Innovation: What is happening?}{section.0.3}
-\BOOKMARK [2][-]{subsection.0.3.2}{Expert Entrepreneurs Effectuation}{section.0.3}
-\BOOKMARK [3][-]{section*.2}{Link to disruptive innovation}{subsection.0.3.2}
-\BOOKMARK [2][-]{subsection.0.3.3}{Startup Challenge: Consistency}{section.0.3}
-\BOOKMARK [3][-]{section*.3}{Startup Lifecycle}{subsection.0.3.3}
-\BOOKMARK [2][-]{subsection.0.3.4}{Pretotyping}{section.0.3}
-\BOOKMARK [3][-]{section*.4}{Challenges of pretotyping on thick clients}{subsection.0.3.4}
-\BOOKMARK [3][-]{section*.5}{public API trend, and platform a good way to go}{subsection.0.3.4}
-\BOOKMARK [2][-]{subsection.0.3.5}{Architecture}{section.0.3}
-\BOOKMARK [1][-]{section.0.4}{Approach}{}
-\BOOKMARK [1][-]{section.0.5}{Case}{}
-\BOOKMARK [2][-]{subsection.0.5.1}{Use cases}{section.0.5}
-\BOOKMARK [2][-]{subsection.0.5.2}{Applying disruption approach}{section.0.5}
-\BOOKMARK [3][-]{section*.6}{Applying effectuation \(remove?\)}{subsection.0.5.2}
-\BOOKMARK [2][-]{subsection.0.5.3}{Why/strategy}{section.0.5}
-\BOOKMARK [2][-]{subsection.0.5.4}{Possible paths and what should be done in each case}{section.0.5}
-\BOOKMARK [2][-]{subsection.0.5.5}{What happened}{section.0.5}
-\BOOKMARK [3][-]{section*.7}{Implementation}{subsection.0.5.5}
-\BOOKMARK [3][-]{section*.8}{Arabic}{subsection.0.5.5}
-\BOOKMARK [3][-]{section*.9}{Log analysis}{subsection.0.5.5}
-\BOOKMARK [2][-]{subsection.0.5.6}{Requirement and architecture}{section.0.5}
-\BOOKMARK [1][-]{section.0.6}{Conclusion}{}
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Outline of Thesis}{section.1}
+\BOOKMARK [1][-]{section.2}{Background}{}
+\BOOKMARK [2][-]{subsection.2.1}{The Disruptive Innovation}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{The Effectual Entrepreneur}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Link to disruptive innovation}{subsection.2.2}
+\BOOKMARK [2][-]{subsection.2.3}{The Consistent Startup}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Startup Lifecycle}{subsection.2.3}
+\BOOKMARK [2][-]{subsection.2.4}{Pretotyping}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Challenges of pretotyping on thick clients}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.2}{public API trend, and platform a good way to go}{subsection.2.4}
+\BOOKMARK [2][-]{subsection.2.5}{Architecture}{section.2}
+\BOOKMARK [1][-]{section.3}{Approach}{}
+\BOOKMARK [1][-]{section.4}{Case}{}
+\BOOKMARK [2][-]{subsection.4.1}{Use cases}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Applying disruption approach}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Applying effectuation \(remove?\)}{subsection.4.2}
+\BOOKMARK [2][-]{subsection.4.3}{Why/strategy}{section.4}
+\BOOKMARK [2][-]{subsection.4.4}{Possible paths and what should be done in each case}{section.4}
+\BOOKMARK [2][-]{subsection.4.5}{What happened}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Implementation}{subsection.4.5}
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Arabic}{subsection.4.5}
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Log analysis}{subsection.4.5}
+\BOOKMARK [2][-]{subsection.4.6}{Requirement and architecture}{section.4}
+\BOOKMARK [1][-]{section.5}{Conclusion}{}

@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{book}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -8,13 +8,14 @@
 
 
 
-
-\section{Abstract}
+\begin{abstract}
 Approach for potentially high growth services/applications on smart devices (smartphones and tablets).
 Theoretical foundations for high growth startups then an approach and an architecture 
 In this innovation thesis, we argue for a pretotype architecture for thick client server systems, 
 that serves the needs in the first phase of pretotyping and can evolve to a scalable system.
+\end{abstract}
 
+\newpage
 
 \tableofcontents
 
@@ -94,13 +95,13 @@ We conclude with results, lessons learned and further work.
 
 %Big opportunity
 
-\subsection{Disruptive Innovation: What is happening?}
+\subsection{The Disruptive Innovation}
 In an attempt to explain why and how some leading companies in given markets are suddently dethroned by new players, 
-Clayton M. Christensen proposed the \emph{Disruptive Innovation\footnote{It was first named disruptive technology but then rename to innovation due 
+Clayton M. Christensen proposed the \emph{Disruptive Innovation\footnote{It was first named disruptive technology but then renamed to innovation due 
   to the fact that technology in and by itself does not disrupt the market, but the innovation is rather the use of it in 
   an innovative business model \cite{scientificArticleDisruptiveInnovationBetterTheory}.}} 
 theory \cite{innovatorsSolution}.
-This theory is interesting because it helps in shaping a strategy for startups in a market about to be disrupted.
+This theory is interesting because it helps in shaping a strategy for new entrants in a market about to be disrupted.
 \\
 
 
@@ -111,13 +112,14 @@ the most important when selecting a product. For a given driver, different custo
 Customers at the \emph{low-end} can be satisfied with 
 less sophistication and performance, while customers at the \emph{high-end} are interested in more performance \cite{innovatorsSolution}. 
 
-For example, a low-end customer for gaming might be satisfied with a computing device with an average performance (CPU, memory, graphics card etc.), 
+For example, hardware performance (CPU, memory, graphics card etc.) might be a dominant driver in the gaming market. 
+A low-end customer might be satisfied with an average performaning computing device, 
 while a high-end customer might want top performance and looks up for the next performance improvements.
 
 Usually, profit margins, the percentage of profit out of the total sale, are higher at the high-end of the market than the low-end, thus 
 making it more attractive.
 To stay competitive, companies continuously make \emph{sustaining innovations} to improve their products, enabling them to serve more and more of 
-the high-end customer needs. For example, a more performant graphics cards. This is depicted in Figure \ref{fig:disruptiveInnovationModel}.\\
+the high-end customer needs. For example, improving the performance of graphics card for the gaming market. This is depicted in Figure \ref{fig:disruptiveInnovationModel}.\\
 
 \begin{figure}[here]
 \includegraphics[width=0.9\textwidth]{images/simpleDisruptiveInnovationModel.png}
@@ -131,13 +133,14 @@ the product's "attributes most valued by the industry's mainstream customers" \c
 
 However, according to the disruptive innovation theory, the pace at which companies improve their products by sustaining innovations is faster than 
 the growth of customer sophistication - the ability to utilise or absorb improvements. 
-This is illustrated by the stippled red lines in figure \ref{fig:disruptiveInnovationModel}. For example, a graphics card performance improvements
+This is illustrated by the stippled red lines in figure \ref{fig:disruptiveInnovationModel}. 
+For example, a graphics card performance improvements 
 beyond what is sufficient to play less demanding games does not effect low-end or casual gamers.
 
 Over time, more and more customers become \emph{overserved}. The product becomes more complex and costly without valuable leverage for most customers. 
 Despite this trend, the established company tend to continue doing what it has been optimized over the years to do: sustaining innovations.
 The company has built internal and external structures that are optimized for competing in the high-end market, 
-including its vision, processes, policies, assets, valued competencies, corporate culture \cite{scientificArticlePredictingTheUnpredictable}, 
+including its vision, processes, policies, assets, valued competencies/employees, corporate culture \cite{scientificArticlePredictingTheUnpredictable}, 
 as well as its \emph{value networks} \cite{innovatorsDilemma}.
 A value network is "the collection of upstream suppliers, downstream channels to market, 
   and ancillary providers that support a common business model within an industry." \cite{innovatorsDilemma}. 
@@ -154,7 +157,7 @@ There are two types of disruptions, \emph{low-end} and \emph{new-market disrupti
 In low-end disruptions, an entrant company starts by offering a product that is good \emph{enough} to the existing low-end market in regard
 to the dominant driver, using a business model that enables profits at lower prices. 
 Furthermore, the product might be better in regard to other characteristics as simplicity and convenience \cite{innovatorsSolution} 
-making it a better choice.
+making it a better choice for this market segment.
 This is illustrated by the lower blue arrow in figure \ref{fig:disruptiveInnovationModel}.
 
 The disruptor company is built around a new business model better suited for the low-end, which gives it the advantage.  
@@ -172,10 +175,14 @@ quick and sudden market change. The old companies are either reduced to the high
 
 On the other hand, in a new-market disruption, the disruptor starts by offering 
 typically a simpler, more convenient product to \emph{nonconsumers}.
-Nonconsumers are persons that previously either could not afford or did not have the skills to use the products in the established 
-market.
-Thus, the new entrant company competes against "non-consumption", by offering a product to a whole new population that have no alternative. 
-This type of disruption is the most frequent \cite{disruptionInEducation} and advisable for new players \cite{DisruptingClassExpandedEdition}. \\
+Nonconsumers are persons that previously either could not afford, did not have the skills to use the products in the established 
+market or did not find them convenient enough.
+Thus, the new entrant company competes against "non-consumption", by offering a product to a whole new population that have had no alternative. 
+
+For example, cell phones/mobiles opened the opportunity for casual gaming in situations where console or computer gaming wouldn't be practical 
+(i.e. while waiting for a bus).
+
+This type of disruption is the most frequent \cite{disruptionInEducation} and advisable for new entrants \cite{DisruptingClassExpandedEdition}. 
 This is illustrated in figure \ref{fig:twoDisruptiveInnovationModels} by a new (green) plan.
 
 \begin{figure}[here]
@@ -187,64 +194,54 @@ This is illustrated in figure \ref{fig:twoDisruptiveInnovationModels} by a new (
 
 Initially, the product is not sophisticated enough for the existing customers in the old market, 
 and the performance is perceived differently in the new market (along other drivers). 
-However, as in the case of low-end disruptions, the product improves
-gradually and eventually pulls customers from the old to the new market. This happens because the new player improved its 
+For example, graphics quality in mobile games was lower than console games but good enough for this niche, while offering convenience, simplicity and meaningful shorter
+gaming sessions.
+
+As in the case of low-end disruptions, the product improves gradually, and the niche market grows, attracting more interest, resources and competition.
+This accelerates the sustaining innovation cycle within the new market, which is ignored by the established companies because it is 
+perceived as another market, and it initially grows the overall industry instead.
+However, the new market eventually pulls customers from the old market. This happens because the new players improved their 
 product against the old drivers, a shift happened in the priorities of drivers or the old drivers became obsolete in the old market.\\
 
-Employing disruptive strategies, both low-end, new-market or a combination, many companies accross different industries 
+
+Employing disruptive strategies, both low-end, new-market or a combination thereof, many companies accross different industries 
 have successfully overtaken markets \cite{innovatorsSolution}. For instance, when the Apple II computer was launched, it was too basic 
 for the financial and engineering applications that used to be handled by minicomputers. Apple II was sold as "children's toy" thereby 
 creating a whole new market that previously did not exist. 
 As personal computers improved, they disrupted the minicomputer market \cite{disruptionInEducation}. 
 \\
 
+%With the continuous performance improvement of smartphones \cite{samsungCompetingAgainstPlaystation4}, the graphics and  gaming experience improved, with the mobility and social attributes 
 Most successful disruptions have three enablers: 
 a simplifying technology (makes it simpler and/or more convenient to do a job), a business model innovation (new definition of who the customers are, 
 what is the value proposition, key processes and resources, and a profit formula \cite{reinvetingBusinessModel}), and a new disruptive 
-value network \cite{pressArticleHbsReviveHealthCareInnovation}. A disruptor rarely disrupts the market alone, but an entire new value 
-network arises that replaces the old one \cite{DisruptingClassExpandedEdition}\cite{pressArticleHbsReviveHealthCareInnovation}. 
+value network \cite{pressArticleHbsReviveHealthCareInnovation}. 
+A disruptor rarely disrupts the market alone, in that to efficiently replace 
+the established market, a whole new network needs to arise \cite{DisruptingClassExpandedEdition}\cite{pressArticleHbsReviveHealthCareInnovation}. 
+For example both the personal computers and smartphones need a whole ecosystem (software/apps, education/books, distributor channels etc) to thrive.
 \\
 
-IGNORE THE REST OF THIS THESIS - WHAT FOLLOWS ARE JUST NOTES 
-\\
+Wether an innovation will disrupt a given market is difficult to predict \cite{innovatorsSolution}. 
+However, even when established companies are aware of the threat and try to counter it, they often fail \cite{innovatorsSolution}. 
+The reason is that companies cannot disrupt themselves \cite{innovatorsSolution} and diruptive initiatives get co-opted into sustaining innovations. 
+The best strategy for established companies, according to Christensen, 
+is to create a new business unit separate from the company, run under the same conditions as a startup \cite{innovatorsSolution}. 
+% TODO check where "new biz unit instead of disrupting yourself"
+Constantinos Markides goes as far as advising established companies to "not even attempt to create such innovations", but should leave the task 
+to better suited startups, and instead aquire the successful ones and consolidate the new markets into big, mass markets \cite{scientificArticleDisruptiveInnovationBetterTheory}.
 
+% Quote used:
+%"established companies should not even attempt to create such in-novations but should leave the task of creating these
+% kinds of markets to small, start-up firms that have the requisite skills and attitudes to succeed at this game.Established firms should, instead, concentrate on
+%what they are good at—consolidating young markets into big, mass markets." \cite{scientificArticleDisruptiveInnovationBetterTheory}
 
+In the next section, we look into the effectuation theory, that explains how expert entrepreneurs think and behave in the startup phase of their entrepreneurial quest,
+and how it relates to the disruptive innovation theory.
 
-Notes:
-Some researchers disagree/add:
-
-First \cite{scientificArticleDisruptiveInnovationBetterTheory}
----
-"Because they are disruptive to both consumers and
-producers, these innovations are rarely driven by
-demand. Instead, they result from a supply–push
-process originating from those responsible for
-developing new technologies (Markides and Geroski,
-2005)." \cite{scientificArticleDisruptiveInnovationBetterTheory}
-
-many small firms, only few survive: the dominant design. But success:
-"... involves making heavy investments in exploiting scale economies, traveling down
-learning curves, developing strong brands, and controlling the channels of distribution to the mass market."
-
-Established: buy-up!
-"established
-companies should not even attempt to create such in-
-novations but should leave the task of creating these
-kinds of markets to small, start-up firms that have the
-requisite skills and attitudes to succeed at this game.
-Established firms should, instead, concentrate on
-what they are good at—consolidating young markets
-into big, mass markets." \cite{scientificArticleDisruptiveInnovationBetterTheory}
---
-
-Second \cite{phdChristianStrom}
-
-High-end disruption also occurs, for example cellular phones costed more, still bad performance in sound.
-But they are still low-end in sound quality!
 
 \newpage
 
-\subsection{Expert Entrepreneurs Effectuation}
+\subsection{The Effectual Entrepreneur}
 In order to explain how entrepreneurs create new firms, Saras D. Sarasvathy proposed a new decision model \cite{effectuationProposal}, \emph{effectuation}, 
 which she later established empirically by a series of experiments \cite{effectuationExperiment}.
 27 expert\footnote{An expert entrepreneur in this study is a person who started one or more companies that have a value from 200 million to 6.5 billion USD}
@@ -254,7 +251,7 @@ Most students based their decisions on \emph{causal reasoning}. They proceed ana
 to identify potential target customers from a predetermined market, and estimate expected returns. With a fixed goal (i.e. \emph{effect}) the students proceed then 
 analytically to find the optimal sequence of events and the means necessary to \emph{cause} the effect. 
 The implicit assumptions are that the market already "exist[s] independent of the firm", the future is predictable 
-(plan to achieve a future effect and return by a known series of events), and that any risk threatening the plan is bad and should be avoided.
+(plan to achieve a future effect and return, by a known series of events), and that any risk threatening the plan is bad and should be avoided.
 
 Most experts, on the other hand, used an almost \emph{reversal} decision-model, called \emph{effectual}, illustrated in figure \ref{fig:effectualCycle}. \\
 
@@ -271,7 +268,7 @@ what they can do with the means they have and can afford to lose, thereby minimi
 They do not predict if, but ensure there is demand for the product as quickly as possible. 
 Starting from what and whom they know, they interact with people in their network and gradually aquire concrete customers and get commitments 
 to the venture from partners. 
-This fruitful interaction increases the means available, and possibly result in partners and customers influencing the flexible goals. 
+This fruitful interaction increases the means available, and possibly results in partners and customers influencing the flexible goals. 
 This process is repeated iteratively, crystallizing the goals and increasing the network, until the experts end up by \emph{creating} a new market. 
 There is no need in predicting the future, since the expert entrepreneurs shape it together with partners and customers.
 If the unexpected happens, the experts take it as a hint of a possible opportunity and would try to adjust the path to take advantage of it instead of sticking to a rigid plan.
@@ -281,14 +278,14 @@ There are five principles that govern the effectual decision-model:
 
 
 \begin{enumerate}
- \item Bird in hand: experts start with their means (who I am: traits, tastes and abilities; 
+ \item \emph{Bird in hand}: experts start with their means (who I am: traits, tastes and abilities; 
   what I know: education, training, expertise, and experience; and whom I know: social and professional networks) \cite{effectuationWhatMakesEntrepreneurial} 
   and imagine possibilities they can pursue. 
     That is, their choices reflect their personality, knowledge and network instead of rational analysis and prediction
- \item Affordable loss: At each step, their efforts and choices are guided by what they can afford to lose, not on a projected future revenue
- \item Patchwork Quilt: experts co-create a market with committed partners, spreading the risk, aquiring new means and crystallizing the goals
- \item Lemonade: bad surprises give an opportunity to learn and give useful clues while creating the market
- \item Pilot-in-the-plane: "the future is neither found nor predicted", but rather made and controlled 
+ \item \emph{Affordable loss}: At each step, their efforts and choices are guided by what they can afford to lose, not by a projected future revenue
+ \item \emph{Patchwork Quilt}: experts co-create a market with committed partners, spreading the risk, aquiring new means and crystallizing the goals
+ \item \emph{Lemonade}: bad surprises give an opportunity to learn and give useful clues while creating the market
+ \item \emph{Pilot-in-the-plane}: "the future is neither found nor predicted", but rather made and controlled 
 \end{enumerate}
 
 
@@ -309,13 +306,13 @@ so much so that "system builder" has been proposed as a more descriptive name th
 "entrepreneur", to reflect the importance of a systemic approach \cite{effectuationSystemicDesign}, i.e. bringing different parts and means together in a coherent network.
 
 In a situation where knowledge permits a reasonable level of prediction, a more causal approach would be appropriate \cite{effectuationNewVenturePerformance}. 
-For example, as a market begin to emerge and a product or business model begins to work \cite{effectuationNewVenturePerformance}. 
+For example, as a market begins to emerge and a product or business model begins to work \cite{effectuationNewVenturePerformance}. 
 In fact, a causal approach is necessary for scaling (expanding) the business after the business model has been validated \cite{effectuationVideoEffectuationVsCausation}.
 
 
 \subsubsection{Link to disruptive innovation}
 Despite that research linking disruptive innovation and effectuation is minimal \cite{managingDisruptiveInnovation}, there seems to be an obvious overlap.
-As seen in the previous chapter, Christensen advices to start disrupting a market by creating a new market, and 
+As seen in the previous chapter, Christensen advises to start disrupting a market by creating a new market, and 
 disruptions rarely occur without a creation of a whole new value network that can disrupt the old. 
 Effectuation is especially helpful in creating new markets and building partnerships.  
 
@@ -333,7 +330,7 @@ for example an online platform, can be a fruitful initiative to generate disrupt
 
 
 
-\subsection{Startup Challenge: Consistency}
+\subsection{The Consistent Startup}
 With the aim of understanding what makes startups succeed or fail, the team behind the Genome project processed
 data from more than 3200 "internet startups" to identify commonalities between successful startups.
 
@@ -347,6 +344,13 @@ designed to execute under conditions of high certainty."} \cite{genomePrematureS
 \end{quote}	
 That is, a startup's primary mission is to learn and discover a product that fits the needs of a (new) market, 
 that can be met profitably in a repeatable and scalable way.
+
+A startup has five dimensions that need to grow simultaneously.
+(more...)
+
+The most fundamental insight gained, is that successful high growth startups manage to grow all dimensions in a consistent way.
+(more...)
+
 A high growth startup goes typically through a lifecycle \cite{genomePrematureScalingReport} described below
 
 \subsubsection{Startup Lifecycle}
@@ -590,7 +594,7 @@ The US education system is becoming too expensive \cite{theInnovativeUniversity}
 With continuously increasing tuition fees \cite{risingTuitionFees}\cite{theInnovativeUniversity} and student debt 
 reaching a staggering 1 trillion USD in the US \cite{oneTrillionUsStudentDebt}, the education market is in need of 
 more affordable alternatives. Combined with a fundamental mismatch between the unique individual student learning 
-preferences and the increased standardized of education \cite{DisruptingClassExpandedEdition}\cite{educationInnovationNecessaryForEconomicGrowth}, 
+preferences and the increased standardization of education \cite{DisruptingClassExpandedEdition}\cite{educationInnovationNecessaryForEconomicGrowth}, 
 the education industry is itself ready for disruption \cite{DisruptingClassExpandedEdition}\cite{theInnovativeUniversity}.
 
 Indeed, the disruption might already have started. In recent years, online course enrollment in the US has increased 
